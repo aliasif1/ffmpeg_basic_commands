@@ -15,7 +15,7 @@ The encoded video will have a duration of 2 seconds (x)
 ## Get the first x seconds from raw (.y4m)
 1 
 `
-ffmpeg -i input.y4m -vframes fps*x out.y4m
+ffmpeg -i input.y4m -vframes fpsxx out.y4m
 
 `
 2
