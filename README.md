@@ -26,5 +26,7 @@ ffmpeg -i input.y4m -t 20 out.y4m
 ## Convert from yuv 422 to yuv 420
 `
 ffmpeg -i input.avi -pix_fmt yuv420p -c:v rawvideo -an -s 1920x1080 -y output.yuv
+`
+`
 ffmpeg -video_size 1920x1080 -framerate 25 -pixel_format yuv420p -i output.yuv output_correct.y4m
 `
